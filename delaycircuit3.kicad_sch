@@ -2734,13 +2734,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 45.72 57.15)
+			(xy 34.29 66.04) (xy 45.72 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "003db79e-6d09-41d5-aadf-a8fab76c7ef9")
+		(uuid "003b16df-cfb9-4fde-bfaf-763cae446d47")
+	)
+	(wire
+		(pts
+			(xy 26.67 60.96) (xy 27.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00683896-b181-46da-af4f-601c8a1e5cd3")
 	)
 	(wire
 		(pts
@@ -2781,6 +2791,16 @@
 			(type default)
 		)
 		(uuid "043aee11-ad52-4e82-9bc8-4f510b9e80ac")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 130.81 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04edee04-6b25-4670-801b-a43c7d70b572")
 	)
 	(wire
 		(pts
@@ -3644,16 +3664,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 135.89) (xy 130.81 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4037de41-b665-43b0-991d-35eca43b044d")
-	)
-	(wire
-		(pts
 			(xy 180.34 24.13) (xy 180.34 22.86)
 		)
 		(stroke
@@ -3801,6 +3811,16 @@
 			(type default)
 		)
 		(uuid "517148fe-d74f-4483-bf5c-af8ff638f627")
+	)
+	(wire
+		(pts
+			(xy 27.94 59.69) (xy 27.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5332a6b5-7a20-44cc-af6c-0c14f3e0a3e6")
 	)
 	(wire
 		(pts
@@ -4334,6 +4354,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 128.27) (xy 161.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f28e2a7-efcf-488d-be5a-488d5d0eaf76")
+	)
+	(wire
+		(pts
 			(xy 367.03 100.33) (xy 377.19 100.33)
 		)
 		(stroke
@@ -4361,16 +4391,6 @@
 			(type default)
 		)
 		(uuid "80df359f-eff0-4913-a3eb-fd2ec00be1cd")
-	)
-	(wire
-		(pts
-			(xy 27.94 59.69) (xy 45.72 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "816d0692-ffe5-4021-9855-31a2565e4bd4")
 	)
 	(wire
 		(pts
@@ -5374,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 66.04) (xy 26.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf45c8af-c020-497e-b937-31c2208b6824")
+	)
+	(wire
+		(pts
 			(xy 232.41 92.71) (xy 238.76 92.71)
 		)
 		(stroke
@@ -5411,16 +5441,6 @@
 			(type default)
 		)
 		(uuid "d23d9df3-4440-4e52-aa05-e0e88c1f143f")
-	)
-	(wire
-		(pts
-			(xy 161.29 135.89) (xy 161.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c8efa1-43d9-4bd8-9fe3-bdf8e0fd9523")
 	)
 	(wire
 		(pts
@@ -5951,6 +5971,16 @@
 			(type default)
 		)
 		(uuid "fc634655-da53-464f-8bac-575114eab5cb")
+	)
+	(wire
+		(pts
+			(xy 45.72 57.15) (xy 45.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd38b152-f870-430c-acaf-2fb25f2078b8")
 	)
 	(wire
 		(pts
@@ -6699,7 +6729,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13k"
+		(property "Value" "1ok"
 			(at 30.48 57.15 0)
 			(effects
 				(font
@@ -7647,7 +7677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 123.19 101.6 0)
 			(effects
 				(font
@@ -8198,6 +8228,74 @@
 			(project "delaycircuit3"
 				(path "/13b24ef1-8c89-41a3-8b79-9cbc78fc8d67"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 30.48 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d30b20d9-7578-4399-ace7-de228a169bb8")
+		(property "Reference" "R3"
+			(at 30.48 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2,7k"
+			(at 30.48 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 30.734 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 30.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90926e53-58b7-4015-9640-b5210062e751")
+		)
+		(pin "2"
+			(uuid "5755619a-d703-452d-92fd-f9f7c6b50d8d")
+		)
+		(instances
+			(project ""
+				(path "/13b24ef1-8c89-41a3-8b79-9cbc78fc8d67"
+					(reference "R3")
 					(unit 1)
 				)
 			)
